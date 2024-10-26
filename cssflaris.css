@@ -65,7 +65,7 @@
 .Smelled {
     width: 100%;
     height: 110vh;
-    background-image: url(./headbanerFlaris-min-min.jpg);
+    background-image: url(../headbanerFlaris-min-min.jpg);
     /* overflow: hidden; */
     background-position: center;
     align-items: center;
@@ -92,5 +92,5 @@
     font-size: 8px;
 }
 .smelledi1{
-    margin-left: ;
+    margin-left:500 ;
 }
