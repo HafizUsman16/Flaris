@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "poppings", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+    border: 1px transparent;
+    padding: 0 30px 0 75px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 15%;
+    height: 8vh;
+    cursor: pointer;
+    color: white;
+    /* background-color: green; */
+
+}
+
+.navbar ul {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    width: 150px;
+    height: 90px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.websiteicon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(212, 33, 61);
+}
+
+.socialicons {
+    font-size: 20px;
+    color: white;
+
+}
+
+.boxi {
+    margin-left: 6px;
+}
+
+.Smelled {
+    width: 100%;
+    height: 110vh;
+    background-image: url(./headbanerFlaris-min-min.jpg);
+    /* overflow: hidden; */
+    background-position: center;
+    align-items: center;
+}
+
+.Smelled img {
+    width: 100%;
+    height: 100%;
+    
+}
+.smelled{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    color: rgb(0,170,255);
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    align-items: center;
+}
+.smelled i{
+    font-size: 8px;
+}
+.smelledi1{
+    margin-left: ;
+}
