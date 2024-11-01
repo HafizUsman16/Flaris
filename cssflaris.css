@@ -422,7 +422,7 @@
     background-color: rgb(30, 30, 30);
     padding: 1px;
     margin-top: -125px;
-    /* margin:auto auto;  what's wrong*/
+    margin:auto auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,7 +451,7 @@
     color: white;
 }
 
-.pressparent button {
+.btn {
     width: 175px;
     height: 50px;
     border: 1px solid white;
@@ -460,18 +460,25 @@
     align-items: center;
     background-color: transparent;
     margin-top:20px;
-    transition: background-color 0.3s;
-
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
-.pressparent button h3 {
+
+.readMore {
     color: white;
-
+    transition: .3s linear;
 }
 
-.pressparent button i {
+.btn i {
     color: rgb(0, 170, 255);
     font-size: 12px;
     margin-left: 5px;
     margin-top: 2px;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn:hover *{
+    color:red;
 }
