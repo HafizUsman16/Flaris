@@ -592,6 +592,53 @@
     /* background-color:yellow; */
     /* background-color:blue; */
 }
+.form1{
+    width:400px;
+    height: 50px;
+    background-color:white;
+    border-radius:10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.form2{
+    width:400px;
+    height: 50px;
+    /* background-color:transparent; */
+    border-radius:10px;
+    margin-top:10px;
+    border:2px solid white;
+    box-sizing:border-box;
+    position:relative;
+}
+.form21{
+    color:white;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    position:absolute;
+    left:150px;
+
+    
+}
+.form22{
+    color:white;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    position:absolute;
+    left:210px;
+    top:18px;
+    visibility:hidden;
+}
+.form2:hover{
+    opacity: 0.4;
+    border: 2px solid transparent;
+    
+}
+.form2:hover .form21{
+    opacity: 1;
+}
+.form2:hover .form22{
+    visibility:visible;
+}
 .homef02{
     width: 100%;
     height:25vh;
