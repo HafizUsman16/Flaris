@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1000;
 }
@@ -272,9 +272,97 @@
 .tableparent {
     width: 100%;
     height: 100vh;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
+    padding: 0 10%;
+}
+.tableheading{
+    width:100%;
+    height:15vh;
+    background-color:rgb(237, 237, 237);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border: 1px solid rgb(0, 0, 0,0.5); */
+
+}
+.th1,
+.th2,
+.th3{
+    width:33%;
+    height:15vh;
+    /* background-color:red; */
+    display: flex;
+    justify-content: space-between;
+}
+.th11,
+.th22,
+.th33{
+    width:40%;
+    height:15vh;
+    /* background-color:yellow; */
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0,0.7);
+
+}
+.hidden{
+    width:60%;
+    height: 15vh;
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    /* background-color: black; */
+}
+.hidden img{
+    width: 40%;
+    height: 7%;
+
+}
+.tableheading1{
+    width:100%;
+    height:15vh;
+    background-color:rgb(221,235,247);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 1px solid rgb(0, 0, 0,0.5);
+}
+.tableheading2{
+    width:100%;
+    height:15vh;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 1px solid rgb(0, 0, 0,0.3);
+    margin-top:20px
+}
+.th4{
+    width:33%;
+    height:15vh;
+    /* background-color:red; */
+    display: flex;
+    justify-content: space-between;
 }
 
+.th211,
+.th222,
+.th233{
+    width:40%;
+    height:15vh;
+    /* background-color:yellow; */
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0,0.7);
+
+}
 
 .lar01parent {
     width: 100%;
@@ -609,13 +697,15 @@
     border:2px solid white;
     box-sizing:border-box;
     position:relative;
+    /* text-align: center;
+    vertical-align: middle; */
+
+
 }
 .form21{
     color:white;
-    /* text-align: center; */
-    /* vertical-align: middle; */
     position:absolute;
-    left:150px;
+    left:170px;
 
     
 }
@@ -627,17 +717,19 @@
     left:210px;
     top:18px;
     visibility:hidden;
+
 }
 .form2:hover{
-    opacity: 0.4;
-    border: 2px solid transparent;
-    
+    border: 2px solid transparent;   
+
 }
 .form2:hover .form21{
     opacity: 1;
+    margin-left:-20px;
 }
 .form2:hover .form22{
     visibility:visible;
+    margin-left:10px;
 }
 .homef02{
     width: 100%;
