@@ -368,7 +368,7 @@
     width: 100%;
     height: 120vh;
     background-image: url(./Pics/Flaris_LAR-1_1600px-53.jpg);
-    background-color: red;
+    /* background-color: red; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -752,4 +752,133 @@
     margin-top:30px;
     /* margin:auto 0; */
     color:white;
+}
+/* --------------------------START OF AIRCRAFT------------------------ */
+.Smelledaircraft {
+    width: 100%;
+    height: 110vh;
+    background-image: url(./Pics/Flaris_AIRCRAFT3-min.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 0 25px 0;
+}
+.Smelledaircraft img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.smelled1 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+
+}
+
+.smelledaircraft {
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 320px;
+    height: 50px;
+    color: rgb(0, 170, 255);
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.Smelledaircraft h1 {
+    color: white;
+    text-align: center;
+}
+.aircraftlist{
+    width: 100%;
+    height:13vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-color: red; */
+
+}
+.aircraftlist ul{
+    width: 350px;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style-type:none;
+    /* background-color: white; */
+}
+.lar01parentaircraft {
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Pics/fota-copy1-1.png);
+    /* background-color: red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lar01parent img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.lar01heading {
+    width: 800px;
+    height: 200px;
+    /* background-color:yellow; */
+}
+
+.flarislar01heading {
+    width: 300px;
+    height: 75px;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flarislar01heading i {
+    margin: 0 auto;
+    color: rgb(0, 170, 255);
+}
+
+.flarislar01heading h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.lar01heading p {
+    width: 800px;
+    height: 40px;
+    /* background-color:red;   */
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
 }
